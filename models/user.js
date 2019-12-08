@@ -1,0 +1,45 @@
+const mongoose=require('mongoose')
+const Schema=mongoose.Schema
+let userSchema=new Schema(
+    {
+        userId:{
+            type:String,
+            default:'',
+            index:true,
+            unique:true
+        },
+        firstName:{
+            type:String,
+            default:''
+        },
+        lastName:{
+            type:String,
+            default:''
+        },
+        email:{
+            type:String,
+            default:''
+        },
+        groups:{
+            type:Array,
+            default:['Default']
+        },
+        password:{
+            type:String,
+            default:''
+        },
+        userName:{
+            type:String,
+            default:''
+        },
+        mobileNumber:{
+            type:String,
+            default:''
+        },
+        createdOn:{
+            type:Date,
+            default:''
+        }
+    }
+)
+mongoose.model('User',userSchema)

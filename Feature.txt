@@ -1,0 +1,40 @@
+						Easy Split
+
+Description:This tool helps the user to split expenses.
+
+Flow of Application:
+1. First the user has to SignUp by clicking on"SignUp" button.
+2. After SignUp the user can login, to interact with different features that the app provides.
+
+
+Features of Application:
+1. View Expense
+The user can create an expense by clicking on create expense button.
+
+2. View All Expense
+When the user selects an group, a list of expenses is shown.
+
+3. Create Expense
+This feature helps the user to create an expense in a group.
+
+4.View Expense
+This feature helps the user to view details of expense.
+
+5. Delete Issue
+The user can delete an issue by clicking on delete button at the view-issue page or view-all-issue page
+
+6. Search Issue
+The user can search for any issue by navigation on View Issues tab and entering word in Search Box.
+
+7. WatchList
+The user can add himself in watchlist of any issue so that he/she gets notified whenever an activity happen on the issue
+
+8. Comment
+The user can comment on any issue.
+
+Git Links-:
+Frontend-:https://github.com/subhanshu1997/easy-split-frontend
+Backend-:https://github.com/subhanshu1997/easy-split-backend
+
+AWS Link-:my-app-dev.tk
+  

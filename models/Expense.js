@@ -1,0 +1,41 @@
+const mongoose=require('mongoose')
+const schema=mongoose.Schema
+let expenseSchema=new schema(
+    {
+        expenseId:{
+            type:String,
+            default:'',
+            index:true,
+            unique:true
+        },
+        name:{
+            type:String,
+            default:''
+        },
+        dateOfCreation:{
+            type:Date,
+            default:''
+        },
+        amount:{
+            type:Number,
+            default:''
+        },
+        createdBy:{
+            type:String,
+            default:''
+        },
+        group:{
+            type:String,
+            default:''
+        },
+        members:{
+            type:Array,
+            default:''
+        },
+        membersPaid:{
+            type:Array,
+            default:''
+        }
+    }
+)
+mongoose.model("expenseSchema",expenseSchema)
